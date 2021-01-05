@@ -12,8 +12,8 @@
 		uint16_t NUM_LEDS;
 		uint16_t THIS_WIDTH;
 		boolean matrix_horizontal = true;
-		CRGB * leds;
 	public:
+		CRGB * leds;
 		ALS_matrixRGB(uint16_t mW, uint16_t mH, uint16_t nL, uint16_t tw);
 		~ALS_matrixRGB(){};
 		int _XY(int x, int y);
